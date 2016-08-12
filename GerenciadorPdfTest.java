@@ -308,6 +308,16 @@ private DadosPlanos getDadosPlanos3(){
 		return dadosPlanos;
 	}
 	
+	private DadosPlanos getDadosPlanosNovo2(){
+		
+		DadosPlanos dadosPlanos = new DadosPlanos();
+		dadosPlanos.setNomePlano("Master LARD               90 D");
+		dadosPlanos.setNovoPrecoPlano("121.79");
+		dadosPlanos.setPercentualReajusteSugerido("28.80");
+		dadosPlanos.setPrecoPlano("94.56");
+		
+		return dadosPlanos;
+	}
 	
 	
 	
