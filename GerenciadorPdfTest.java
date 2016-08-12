@@ -162,15 +162,7 @@ public class GerenciadorPdfTest{
 		listaDadosPlanos.add(getDadosPlanos());
 		listaDadosPlanos.add(getDadosPlanos());
 		
-		modeloEmpresarialPadrao.setDadosPlanosList(listaDadosPlanos);
-		modeloEmpresarialPadrao.setDadosCartaReajuste(dadosCartaReajuste);
-		modeloEmpresarialPadrao.setDadosEmpresa(dadosEmpresa);
-		modeloEmpresarialPadrao.setDadosMoedas(dadosMoeda);
-		modeloEmpresarialPadrao.setDadosCelula(dadosCelula);
-		modeloEmpresarialPadrao.setDadosCalculoReajuste(dadosCalculoReajuste);
-		modeloEmpresarialPadrao.setPercentualReajusteSugeridoRS("28.80");
 		
-		return modeloEmpresarialPadrao;
 		
 	}
 	
@@ -278,6 +270,27 @@ public class GerenciadorPdfTest{
 	
 }
 
+private DadosPlanos getDadosPlanos2(){
+		
+		DadosPlanos dadosPlanos = new DadosPlanos();
+		dadosPlanos.setNomePlano("Master LARD               90 D");
+		dadosPlanos.setNovoPrecoPlano("121.79");
+		dadosPlanos.setPercentualReajusteSugerido("28.80");
+		dadosPlanos.setPrecoPlano("94.56");
+		
+		return dadosPlanos;
+	}
+	
+private DadosPlanos getDadosPlanos3(){
+		
+		DadosPlanos dadosPlanos = new DadosPlanos();
+		dadosPlanos.setNomePlano("Master LARD               90 D");
+		dadosPlanos.setNovoPrecoPlano("121.79");
+		dadosPlanos.setPercentualReajusteSugerido("28.80");
+		dadosPlanos.setPrecoPlano("94.56");
+		
+		return dadosPlanos;
+	}
 	
 	
 	private DadosPlanos getDadosPlanos(){
