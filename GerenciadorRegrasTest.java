@@ -156,6 +156,8 @@ public class GerenciadorRegrasTest {
 		listaDadosPlanos.add(getDadosPlanos("Plano B", "102.56"));
 		listaDadosPlanos.add(getDadosPlanos("Plano E", "102.56"));
 		listaDadosPlanos.add(getDadosPlanos("Plano J", "102.56"));
+		listaDadosPlanos.add(getDadosPlanos("Plano P  ", "102.56"));
+		listaDadosPlanos.add(getDadosPlanos("Plano P", "102.56"));
 		listaDadosPlanos.add(getDadosPlanos("Plano J  ", "102.56"));
 		
 		int sizeInicial = listaDadosPlanos.size();
@@ -233,13 +235,25 @@ public class GerenciadorRegrasTest {
 	
 	
 	@SuppressWarnings("deprecation")
-	private Empresa obterMockedEmpresa(int year, int month, int day){
+	private Empresa obterMockedEmpresa3(int year, int month, int day){
 		
 		Empresa empresa = mock(Empresa.class);
 		when(empresa.getDtIniContrato()).thenReturn(new Date(year - 1900, month -1, day));	
 		when(empresa.getDtUltReajuste()).thenReturn(new Date(year - 1900, month -1, day));
 		when(empresa.getNomeFantasia()).thenReturn("MOCKED EMPRESA TESTE LTDA");
-		when(empresa.getCdEmpresa()).thenReturn("000055");
+		when(empresa.getCdEmpresa()).thenReturn("000033");
+		
+		return empresa;
+	}
+	
+	@SuppressWarnings("deprecation")
+	private Empresa obterMockedEmpresa4(int year, int month, int day){
+		
+		Empresa empresa = mock(Empresa.class);
+		when(empresa.getDtIniContrato()).thenReturn(new Date(year - 1900, month -1, day));	
+		when(empresa.getDtUltReajuste()).thenReturn(new Date(year - 1900, month -1, day));
+		when(empresa.getNomeFantasia()).thenReturn("MOCKED EMPRESA TESTE LTDA");
+		when(empresa.getCdEmpresa()).thenReturn("000044");
 		
 		return empresa;
 	}
