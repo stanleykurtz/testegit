@@ -108,8 +108,8 @@ public class GerenciadorPdfTest{
 		listaDadosPlanos.add(getDadosPlanos());
 		listaDadosPlanos.add(getDadosPlanos());
 		listaDadosPlanos.add(getDadosPlanos());
-		listaDadosPlanos.add(getDadosPlanos());
-		listaDadosPlanos.add(getDadosPlanos());
+		dadosCartaReajuste.setNomeCidade("Barueri");
+		dadosCelula.setEmailCelula("odontoprev@odontoprev.com.br");
 		listaDadosPlanos.add(getDadosPlanos());
 		
 		
