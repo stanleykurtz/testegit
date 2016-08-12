@@ -108,6 +108,8 @@ public class GerenciadorPdfTest{
 		listaDadosPlanos.add(getDadosPlanos());
 		listaDadosPlanos.add(getDadosPlanos());
 		listaDadosPlanos.add(getDadosPlanos());
+		dadosCalculoReajuste.setNovoFaturamento("R$486,503.24");
+		dadosCalculoReajuste.setPercentualReajuste("28.80");
 		dadosCartaReajuste.setNomeCidade("Barueri");
 		dadosCelula.setEmailCelula("odontoprev@odontoprev.com.br");
 		listaDadosPlanos.add(getDadosPlanos());
