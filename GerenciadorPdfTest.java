@@ -91,7 +91,7 @@ public class GerenciadorPdfTest{
 		dadosEmpresa.setDataAniversarioReajuste(new Date());
 		dadosCartaReajuste.setDataGeracaoCarta(new Date());
 		dadosCartaReajuste.setNomeCidade("Barueri");
-		dadosCelula.setEmailCelula("odontoprev@gmail.com");
+		dadosCelula.setEmailCelula("teste@teste.com");
 		dadosCalculoReajuste.setFaturamento("R$409,663.87");
 		dadosMoeda.setIndiceOficialMoeda("10.04%");
 		dadosCalculoReajuste.setLimiteTecnico("60.00%");
@@ -308,6 +308,16 @@ private DadosPlanos getDadosPlanos3(){
 		return dadosPlanos;
 	}
 	
+	private DadosPlanos getDadosPlanosNovo2(){
+		
+		DadosPlanos dadosPlanos = new DadosPlanos();
+		dadosPlanos.setNomePlano("Master LARD               90 D");
+		dadosPlanos.setNovoPrecoPlano("121.79");
+		dadosPlanos.setPercentualReajusteSugerido("28.80");
+		dadosPlanos.setPrecoPlano("94.56");
+		
+		return dadosPlanos;
+	}
 	
 	
 	
