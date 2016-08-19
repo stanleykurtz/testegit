@@ -96,7 +96,8 @@ public class GerenciadorPdfTest{
 		dadosMoeda.setIndiceOficialMoeda("10.04%");
 		dadosCalculoReajuste.setLimiteTecnico("60.00%");
 		dadosMoeda.setMoeda("IPC");
-		dadosCelula.setNomeCelula("Celula IV");
+		//Mudança Master
+		dadosCelula.setNomeCelula("Celula IX");
 		dadosEmpresa.setNomeEmpresa("Empresa Teste ODPV Privian");
 		dadosCalculoReajuste.setNovoFaturamento("R$486,503.24");
 		dadosCalculoReajuste.setPercentualReajuste("28.80");
