@@ -91,12 +91,12 @@ public class GerenciadorPdfTest{
 		dadosEmpresa.setDataAniversarioReajuste(new Date());
 		dadosCartaReajuste.setDataGeracaoCarta(new Date());
 		dadosCartaReajuste.setNomeCidade("Barueri");
-		dadosCelula.setEmailCelula("odontoprev@odontoprev.com.br");
+		dadosCelula.setEmailCelula("odontoprev@uol.com.br");
 		dadosCalculoReajuste.setFaturamento("R$409,663.87");
 		dadosMoeda.setIndiceOficialMoeda("10.04%");
 		dadosCalculoReajuste.setLimiteTecnico("60.00%");
 		dadosMoeda.setMoeda("IPC");
-		dadosCelula.setNomeCelula("Celula IV");
+		dadosCelula.setNomeCelula("Celula VIII");
 		dadosEmpresa.setNomeEmpresa("Empresa Teste ODPV Privian");
 		dadosCalculoReajuste.setNovoFaturamento("R$486,503.24");
 		dadosCalculoReajuste.setPercentualReajuste("28.80");
