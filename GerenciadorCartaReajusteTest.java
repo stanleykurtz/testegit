@@ -139,6 +139,7 @@ public class GerenciadorCartaReajusteTest {
 		//ModeloEmpresarialIndice modeloEmpresarialIndice = new ModeloEmpresarialIndice();
 		CartaReajusteModelo modeloEmpresarialIndice = new CartaReajusteModelo();
 		//modeloEmpresarialIndice.setCartaReajusteModeloEnum(CartaReajusteModeloEnum.MODELO_EMPRESARIAL_INDICE);
+		//Teste
 		
 		DadosCartaReajuste dadosCartaReajuste = new DadosCartaReajuste();
 		DadosEmpresa dadosEmpresa = new DadosEmpresa();
